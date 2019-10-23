@@ -28,7 +28,7 @@
 │  │  │              ├─redis  --  redis相关类，包含redis配置类和redis操作类
 │  │  │              │─service  -- 业务层
 │  │  │              │    └─impl  -- 业务层实现类
-│  │  │              ├── SpringbootSeckillApplication.java  -- SpringBoot启动器
+│  │  │              └── SpringbootSeckillApplication.java  -- SpringBoot启动器
 │  │  └─resources
 │  │      ├── application.yml  -- SpringBoot核心配置
 │  │      ├─mapper  -- Mybatis-Mapper层XML映射文件
