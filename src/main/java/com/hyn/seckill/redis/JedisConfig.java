@@ -10,7 +10,7 @@ import redis.clients.jedis.JedisPoolConfig;
 
 /**
  * @Author: HYN
- * @Description:
+ * @Description: Jedis配置类
  * @Modified By:
  */
 @Configuration

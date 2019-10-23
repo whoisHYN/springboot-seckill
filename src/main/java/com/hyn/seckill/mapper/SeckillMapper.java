@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @Author: HYN
- * @Description:
+ * @Description: 秒杀商品数据库操作
  * @Modified By:
  */
 @Mapper

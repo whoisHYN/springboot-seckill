@@ -8,7 +8,7 @@ import java.util.Date;
 
 /**
  * @Author: HYN
- * @Description:
+ * @Description: 秒杀订单实体类
  * @Modified By:
  */
 public class SeckillOrder {

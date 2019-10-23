@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 
 /**
  * @Author: HYN
- * @Description:
+ * @Description: 秒杀订单数据库操作
  * @Modified By:
  */
 @Mapper

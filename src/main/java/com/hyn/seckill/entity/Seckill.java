@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  * @Author: HYN
- * @Description:
+ * @Description: 秒杀商品实体类
  * @Modified By:
  */
 public class Seckill implements Serializable {

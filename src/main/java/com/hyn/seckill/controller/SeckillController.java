@@ -22,17 +22,21 @@ import java.util.List;
 
 /**
  * @Author: HYN
- * @Description:
+ * @Description: 与前端交互的主要controller
  * @Modified By:
  */
 @Controller
 @RequestMapping("/seckill")
 public class SeckillController {
 
-    @Autowired
-    private SeckillService seckillService;
+    private final SeckillService seckillService;
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
+
+    @Autowired
+    public SeckillController(SeckillService seckillService) {
+        this.seckillService = seckillService;
+    }
 
     @RequestMapping("/list")
     public String findSeckillList(Model model) {

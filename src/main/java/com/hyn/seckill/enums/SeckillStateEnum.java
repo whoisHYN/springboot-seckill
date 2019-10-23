@@ -2,7 +2,7 @@ package com.hyn.seckill.enums;
 
 /**
  * @Author: HYN
- * @Description:
+ * @Description: 表示秒杀状态的枚举类
  * @Modified By:
  */
 public enum SeckillStateEnum {

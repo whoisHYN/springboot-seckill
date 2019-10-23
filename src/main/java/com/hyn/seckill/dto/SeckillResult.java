@@ -2,7 +2,7 @@ package com.hyn.seckill.dto;
 
 /**
  * @Author: HYN
- * @Description:
+ * @Description: 秒杀结果类
  * @Modified By:
  */
 public class SeckillResult<T> {

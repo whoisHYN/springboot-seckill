@@ -5,7 +5,7 @@ import com.hyn.seckill.enums.SeckillStateEnum;
 
 /**
  * @Author: HYN
- * @Description:
+ * @Description: 秒杀执行类
  * @Modified By:
  */
 public class SeckillExecution {
