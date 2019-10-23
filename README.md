@@ -4,7 +4,6 @@
 本项目是基于SpringBoot对秒杀系统的简单实现。
 前台写了一个商品详情页，商品查询基于redis缓存技术实现，提高并发查询效率。
 #### 技术栈
-+ 后端技术
    + 后端：SpringBoot + MySQL + Redis 
    + 前端：Bootstrap + jQuery + Thymeleaf
    + 开发环境：Java 8 + IntelliJ IDEA + Maven + Git + Linux
