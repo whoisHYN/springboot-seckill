@@ -22,28 +22,25 @@
 │  │  │          └─seckill
 │  │  │              ├─controller -- MVC的web层
 │  │  │              ├─dto  -- 统一封装的一些结果属性，和entity类似
-│  │  │              ├─entity  --  实体类，包含秒杀项目和秒杀订单
-│  │  │              ├─enums  --  自定义的表示订单状态的枚举类
-│  │  │              ├─exception  --  自定义异常类 
-│  │  │              ├─mapper  --  Mybatis-Mapper层映射接口，或称为DAO层
+│  │  │              ├─entity  -- 实体类，包含秒杀项目和秒杀订单
+│  │  │              ├─enums  -- 自定义的表示订单状态的枚举类
+│  │  │              ├─exception  -- 自定义异常类 
+│  │  │              ├─mapper  -- Mybatis-Mapper层映射接口，或称为DAO层
 │  │  │              ├─redis  --  redis相关类，包含redis配置类和redis操作类
-│  │  │              │─service  --  业务层
-│  │  │              │    └─impl  --  业务层实现类
+│  │  │              │─service  -- 业务层
+│  │  │              │    └─impl  -- 业务层实现类
 │  │  │              ├── SpringbootSeckillApplication.java  -- SpringBoot启动器
 │  │  └─resources
 │  │      ├── application.yml  -- SpringBoot核心配置
 │  │      ├─mapper  -- Mybatis-Mapper层XML映射文件
 │  │      ├─static  -- 存放页面静态资源，可通过浏览器直接访问
-│  │      │  ├─css
-│  │      │  ├─js
-│  │      │  └─lib
-│  │      │      └─font
-│  │      │          ├─css
-│  │      │          └─icon
+│  │      │  ├─css  -- css相关代码
+│  │      │  ├─js  -- js代码
+│  │      │  └─lib  -- Bootstrap和jQuery等js相关代码
 │  │      └─templates  -- 存放Thymeleaf模板引擎所需的HTML，不能在浏览器直接访问
-│  │          ├─page
+│  │          ├─page  -- 前台页面，包含秒杀列表页和秒杀商品详情页
 │  │          └─public  -- HTML页面公共组件（头部、尾部）
-│  └─test  --  测试类
+│  └─test  -- 测试类
 ├── pom.xml  -- 项目依赖
 ```
 
